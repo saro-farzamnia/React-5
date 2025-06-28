@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import styled from 'styled-components'
-// const Div = styled.div`
-// color:blue;
-// background-color:red;
-// // border:13px solid gold;
-// // &:hover{
-// // color:red;
-// @media (max-width:1200px){
-// background-color:aqua;
-// }
-// }
-// `;
+const Div = styled.div`
+color:blue;
+background-color:red;
+// border:13px solid gold;
+// &:hover{
+// color:red;
+@media (max-width:1200px){
+background-color:aqua;
+}
+}
+`;
 const Div = styled.div`
 color:${(props)=>(props.selected ? "blue" : "gold")};
 background-color:red;
